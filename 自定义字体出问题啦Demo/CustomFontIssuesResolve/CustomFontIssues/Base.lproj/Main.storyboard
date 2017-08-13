@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PT DIN Condensed Cyrillic.ttf">
+            <string>DINCondensedC</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtm-uQ-mmm">
+                                <rect key="frame" x="163" y="229" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.6894386574074074" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="gxC-I5-moY"/>
+                                    <constraint firstAttribute="height" constant="50" id="i2x-AQ-NkS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINCondensedC" family="DINCondensedC" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下面这个lable的字体存在偏移" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhV-dG-zXV">
+                                <rect key="frame" x="54" y="155" width="267" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下面这个lable的字体是system" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRb-ec-HSf">
+                                <rect key="frame" x="52" y="321.5" width="271" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIV-0q-vb3">
+                                <rect key="frame" x="162.5" y="395.5" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.68943865739999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cEP-Od-ER2"/>
+                                    <constraint firstAttribute="width" constant="50" id="ygu-fu-hyG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="字体为DINCondensedC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACO-yO-WPH">
+                                <rect key="frame" x="81.5" y="179" width="212" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PIV-0q-vb3" firstAttribute="centerX" secondItem="jRb-ec-HSf" secondAttribute="centerX" id="FeQ-90-L0J"/>
+                            <constraint firstItem="YhV-dG-zXV" firstAttribute="centerX" secondItem="wtm-uQ-mmm" secondAttribute="centerX" id="QaX-8L-bSg"/>
+                            <constraint firstItem="ACO-yO-WPH" firstAttribute="centerX" secondItem="YhV-dG-zXV" secondAttribute="centerX" id="R9i-93-WoB"/>
+                            <constraint firstItem="wtm-uQ-mmm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TAw-WM-SOy"/>
+                            <constraint firstItem="PIV-0q-vb3" firstAttribute="top" secondItem="jRb-ec-HSf" secondAttribute="bottom" constant="50" id="TbH-95-65F"/>
+                            <constraint firstItem="jRb-ec-HSf" firstAttribute="centerX" secondItem="wtm-uQ-mmm" secondAttribute="centerX" id="UQZ-ed-xPm"/>
+                            <constraint firstItem="wtm-uQ-mmm" firstAttribute="top" secondItem="YhV-dG-zXV" secondAttribute="bottom" constant="50" id="myL-OG-coP"/>
+                            <constraint firstItem="jRb-ec-HSf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ntx-nM-3Fv"/>
+                            <constraint firstItem="ACO-yO-WPH" firstAttribute="top" secondItem="YhV-dG-zXV" secondAttribute="bottom" id="qtR-xI-0Eb"/>
+                            <constraint firstItem="YhV-dG-zXV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="rim-an-cCC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
